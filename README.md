@@ -18,6 +18,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/AlcubiX/replydna/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/AlcubiX/replydna/actions/workflows/ci.yml/badge.svg"></a>
   <img alt="MIT license" src="https://img.shields.io/badge/license-MIT-3D4BFF">
   <img alt="Python 3.10+" src="https://img.shields.io/badge/python-3.10%2B-7B3CFF">
   <img alt="Runs on Claude Code" src="https://img.shields.io/badge/runs%20on-Claude%20Code-8B8BFF">
@@ -174,7 +175,7 @@ replydna/
 - [ ] Pinned-comment and heart suggestions in one tap
 - [ ] More report languages for the report UI
 
-Ideas and pull requests are welcome. Please open an issue first for big changes.
+Ideas and pull requests are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md), ask in [Discussions](https://github.com/AlcubiX/replydna/discussions), and report security issues privately ([SECURITY.md](SECURITY.md)).
 
 ## 🤝 Built by
 
@@ -187,7 +188,7 @@ Ideas and pull requests are welcome. Please open an issue first for big changes.
   </a>
 </p>
 
-ReplyDNA is built and maintained by **[AlcubiX](https://github.com/AlcubiX)**: *warp ideas into reality.*
+ReplyDNA is built and maintained by **[AlcubiX](https://alcubix.com)**, makers of [TaskFlow](https://taskflow.alcubix.com): *we compress the time work takes.*
 If it saves you time, a ⭐ on the repo helps other creators find it.
 
 <sub>ReplyDNA is an independent open-source project, not affiliated with YouTube, Google or Anthropic. "YouTube" is a trademark of Google LLC; "Claude" is a trademark of Anthropic.</sub>

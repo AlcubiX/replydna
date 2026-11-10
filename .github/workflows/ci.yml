@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  demo:
+    name: Demo run · Python ${{ matrix.python }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.10", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: Compile every script
+        run: python -m py_compile scripts/*.py
+      - name: Run the full demo (fetch → label → inbox → report)
+        run: python scripts/demo.py
+      - name: Safety checks
+        run: |
+          export REPLYDNA_HOME="$PWD/demo-run"
+          # "approve all" must never approve 🔴 alerts
+          python scripts/post_replies.py --approve all --post --dry-run --gap 0 | tee post.log
+          python - <<'PY'
+          import sqlite3
+          con = sqlite3.connect("demo-run/data/youtube.db")
+          bad = con.execute("""SELECT COUNT(*) FROM drafts d JOIN labels l ON l.comment_id=d.comment_id
+                               WHERE l.action='alert' AND d.status='approved'""").fetchone()[0]
+          assert bad == 0, f"{bad} alert drafts were approved by 'approve all'"
+          print("ok: alerts untouched by 'approve all'")
+          PY
+          test -f demo-run/reports/report-*.html

@@ -1,0 +1,28 @@
+name: 🐞 Bug report
+description: Something broke or behaved unexpectedly
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping make ReplyDNA better! **Never paste tokens, client_secret.json or anything from `secrets/`.**
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you run or type, and what did you see?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error output
+      render: shell
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      placeholder: macOS 15 · Python 3.12 · Claude Code desktop
