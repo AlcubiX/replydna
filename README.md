@@ -25,6 +25,11 @@
   <img alt="Local first" src="https://img.shields.io/badge/data-stays%20on%20your%20laptop-2ED47A">
 </p>
 
+<p align="center">
+  <a href="https://alcubix.github.io/replydna/demo/"><img src="docs/images/demo-report.gif" alt="ReplyDNA demo: pick the calm or witty draft for a troll, approve it, filter replies by language" width="420"></a><br>
+  <sub>The live demo report: pick a calm or witty reply, approve it, filter by language. <a href="https://alcubix.github.io/replydna/demo/">Try it yourself →</a></sub>
+</p>
+
 ---
 
 ## Why
