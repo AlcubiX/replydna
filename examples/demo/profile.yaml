@@ -1,0 +1,23 @@
+# Fictional demo creator. Used only by scripts/demo.py.
+creator_name: "Maya (demo)"
+creator_role: "DIY creator · fictional"
+name_variants: ["Maya Builds"]
+brand_name: "Maya Builds"
+channels:
+  - handle: "@MayaBuildsDemo"
+    channel_id: "UC_DEMO_CHANNEL_000000000"
+official_channel_ids: []
+niche: diy
+talk_to_me_in: English
+reply_language: mirror
+transcript_langs: [en]
+emoji: {allowed: ["🙏", "👍", "😄"], max_per_reply: 1}
+savage_level: 2
+disclaimer: ""
+never_say: ["medical advice", "guarantees of results"]
+official_links: {website: "https://example.com"}
+crisis_line: "your local emergency number"
+inbox_time: "20:00"
+max_replies_per_day: 100
+auto_mode: false
+quota_daily_cap: 9000

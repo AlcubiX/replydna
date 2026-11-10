@@ -1,0 +1,221 @@
+{
+ "month": "set by demo.py",
+ "headline": [
+  "Beyond views,",
+  "towards trust."
+ ],
+ "summary": "30 comments on 4 videos, in 5 languages. More than 1 in 3 is a question nobody has answered yet: that's your next 8 videos and your warmest leads.",
+ "highlight": {
+  "value": "37%",
+  "title": "of comments are questions, and none has an answer yet",
+  "text": "11 of 30 comments ask something: which drill, which glue, how to start from zero. Every one is a ready-made video idea or a future student. ReplyDNA drafted an answer for all 11, each in the viewer's own language.",
+  "foot": "Demo data: 30 fictional comments on 4 videos, last 30 days."
+ },
+ "voices": [
+  {
+   "q": "You said pallet wood is safe but you never checked the HT/MB stamp. MB pallets are treated with methyl bromide. Please add a warning.",
+   "cat": "Caught a mistake",
+   "foot": "156 likes · safety: pin a correction today"
+  },
+  {
+   "q": "Bro you used a level app on your phone, that's why your shelf was crooked lol",
+   "cat": "Joke, but valid",
+   "foot": "49 likes · a $10 fix"
+  },
+  {
+   "q": "Every video is just an ad for your course now. Unsubscribed.",
+   "cat": "\"Just selling\"",
+   "foot": "61 likes · watch the offer cap"
+  },
+  {
+   "q": "This is the first DIY video that didn't make me feel stupid. Built my shelf yesterday and it's actually level!",
+   "cat": "Success story",
+   "foot": "412 likes · your most-liked comment"
+  }
+ ],
+ "abi": {
+  "ability": [
+   "Answer the 11 open questions this week",
+   "Film the chisel-sharpening video people asked for"
+  ],
+  "integrity": [
+   "Pin the pallet-stamp correction",
+   "Redo the dowel test with a fixed jig and show the numbers"
+  ],
+  "benevolence": [
+   "Reply to the superfan and the success story by name",
+   "Keep free lessons free and say so"
+  ]
+ },
+ "risk_notes": [
+  "A fake \"Maya's assistant\" account pushed a Telegram prize: held automatically (reversible).",
+  "A paying customer can't log in: answer within 24 hours. It's your most important comment this week.",
+  "One \"scam\" claim: never argue in public; one calm, factual reply after your OK.",
+  "One safety correction (MB-stamped pallets): pin it today."
+ ],
+ "video_ideas": [
+  "How to sharpen chisels in 10 minutes (asked in Spanish)",
+  "Outdoor furniture finishes that actually last",
+  "Splinter-free plywood cuts on a miter saw",
+  "Which glue for which joint (asked in Hindi)",
+  "The one drill to buy under $80",
+  "Pallet wood safety: reading HT and MB stamps",
+  "Workbench height that saves your back",
+  "Woodworking from zero: a 30-day roadmap"
+ ],
+ "keep": [
+  {
+   "t": "Beginner-first explanations",
+   "d": "Your most-liked comment says the video didn't make them feel stupid.",
+   "e": "412 likes, 4 success / praise comments"
+  },
+  {
+   "t": "Admitting mistakes",
+   "d": "Joke-but-valid comments turn into goodwill when you laugh along.",
+   "e": "49 likes on the level-app joke"
+  },
+  {
+   "t": "Multilingual audience",
+   "d": "Spanish, Portuguese, Hindi and Hinglish viewers ask real questions.",
+   "e": "7 of 26 comments not in English"
+  }
+ ],
+ "improve": [
+  {
+   "t": "Answer questions faster",
+   "d": "11 questions, 0 answers. Answered questions are pinned-comment gold.",
+   "e": "37% of comments are questions"
+  },
+  {
+   "t": "Safety notes on screen",
+   "d": "Add the HT/MB stamp check and load limits to the table video.",
+   "e": "156 likes on the correction"
+  },
+  {
+   "t": "Fair tests",
+   "d": "Re-run the dowel test with a fixed jig.",
+   "e": "44 likes on the criticism"
+  }
+ ],
+ "avoid": [
+  {
+   "t": "Course mentions in every video",
+   "d": "One \"just an ad\" comment already; keep offers to pull-only.",
+   "e": "61 likes on the complaint"
+  },
+  {
+   "t": "Arguing with the \"scam\" claim",
+   "d": "One calm template, then move on.",
+   "e": "1 fraud claim this month"
+  },
+  {
+   "t": "Phone apps as tools",
+   "d": "Use a real level on camera.",
+   "e": "the comment everyone liked"
+  }
+ ],
+ "next": [
+  {
+   "k": "Week 1",
+   "t": "Quick wins",
+   "items": [
+    "Pin the pallet correction",
+    "Answer the 11 open questions",
+    "Reply to the paying customer"
+   ]
+  },
+  {
+   "k": "Week 2",
+   "t": "Draft mode",
+   "items": [
+    "Approve the inbox daily (15 min)",
+    "Heart the superfan comments"
+   ]
+  },
+  {
+   "k": "Week 3",
+   "t": "New video",
+   "items": [
+    "Film chisel sharpening",
+    "Spanish title + subtitles test"
+   ]
+  },
+  {
+   "k": "Week 4",
+   "t": "Report",
+   "items": [
+    "Keep / Improve / Avoid review",
+    "Hot leads → course page"
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "comment_quote": "Pocket holes are for people who can't cut proper joinery. Real woodworkers use dovetails.",
+   "draft_reply": "Dovetails are beautiful and I'd love to film a series on them. Pocket holes just get beginners building this weekend instead of someday.",
+   "option_b": "Real woodworkers finish projects 😄 Dovetails are on the list, but first-timers need a win before a masterpiece.",
+   "language": "english",
+   "likes": 190,
+   "category_label": "Troll",
+   "handle": "@viewer_03",
+   "initial": "R",
+   "when": "8 days ago"
+  },
+  {
+   "comment_quote": "¡Me encanta tu canal! ¿Puedes hacer un video sobre cómo afilar formones?",
+   "draft_reply": "¡Gracias de corazón! Afilar formones está en mi lista, lo grabo este mes 🙏",
+   "option_b": null,
+   "language": "spanish",
+   "likes": 87,
+   "category_label": "Topic request",
+   "handle": "@viewer_06",
+   "initial": "L",
+   "when": "2 days ago"
+  },
+  {
+   "comment_quote": "डॉवेल वाले जॉइंट में कौन सा ग्लू सबसे अच्छा रहता है?",
+   "draft_reply": "साधारण PVA वुड ग्लू काफ़ी है। ग्लू कम लगाइए और रात भर क्लैम्प करके रखिए 👍",
+   "option_b": null,
+   "language": "hindi",
+   "likes": 65,
+   "category_label": "Beginner question",
+   "handle": "@viewer_08",
+   "initial": "A",
+   "when": "7 days ago"
+  },
+  {
+   "comment_quote": "Didi aapka explanation bahut clear hai, mera first project aaj start kiya 🙏",
+   "draft_reply": "Bahut badhiya! Pehle project ki photo zaroor share kijiye, aur yaad rakhiye: measure twice, cut once 😄",
+   "option_b": null,
+   "language": "hinglish",
+   "likes": 77,
+   "category_label": "Genuine praise",
+   "handle": "@viewer_07",
+   "initial": "P",
+   "when": "9 days ago"
+  },
+  {
+   "comment_quote": "This channel is a scam, she sells overpriced courses and fake reviews.",
+   "draft_reply": "We never ask for money in comments or DMs, and every review is from a real student. If something went wrong for you, our support email is on the About page and we'll fix it.",
+   "option_b": null,
+   "language": "english",
+   "likes": 25,
+   "category_label": "Fraud claim → alert",
+   "handle": "@viewer_18",
+   "initial": "S",
+   "when": "5 days ago"
+  },
+  {
+   "comment_quote": "Que mesa linda! Qual acabamento você usou?",
+   "draft_reply": "Obrigada! Usei óleo de tungue em três camadas finas, lixando entre elas 🙏",
+   "option_b": null,
+   "language": "portuguese",
+   "likes": 54,
+   "category_label": "Beginner question",
+   "handle": "@viewer_10",
+   "initial": "M",
+   "when": "5 days ago"
+  }
+ ],
+ "hl_category": "Beginner questions"
+}

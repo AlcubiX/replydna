@@ -1,0 +1,18 @@
+# your private data: never commit
+secrets/
+data/
+work/
+inbox/
+reports/
+logs/
+demo-run/
+config/profile.yaml
+config/voice_card.md
+config/offer.md
+assets/creator.*
+
+# python / os
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

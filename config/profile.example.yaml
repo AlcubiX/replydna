@@ -1,0 +1,32 @@
+# ReplyDNA profile. Claude creates config/profile.yaml from this during setup (just type "start").
+# Every line is confirmed by you. Nothing here is a secret; your login lives in secrets/ and never leaves your computer.
+
+creator_name: "Your Name"                  # as viewers write it
+creator_role: "Creator"                    # shown on reports, e.g. "Chef", "Coach", "Founder"
+name_variants: ["Your Name", "Your Nickname"]   # spellings viewers use; full names only (used by the mentions radar)
+brand_name: "Your Channel"                 # shown on reports
+channels:
+  - handle: "@yourhandle"
+    channel_id: "UCxxxxxxxxxxxxxxxxxxxxxx" # Claude finds this for you
+official_channel_ids: []                   # your other official channels (never flagged as look-alikes)
+
+niche: general                             # general | finance | health | fitness | education | tech | gaming | food | beauty | ...
+talk_to_me_in: English                     # the language Claude uses with YOU (English, Hinglish, Español, ...)
+reply_language: mirror                     # mirror = reply in the commenter's language AND script (recommended)
+transcript_langs: [en]                     # caption languages for Voice DNA, e.g. [hi, en]
+voice_track: []                            # extra words to count in your transcripts, e.g. ["bro", "folks"]
+
+emoji: {allowed: ["🙏", "👍", "😄"], max_per_reply: 1}
+savage_level: 1                            # 0 never witty · 1 light humour · 2 witty B-option for trolls · 3 roast (not recommended)
+disclaimer: ""                             # e.g. "Not financial advice." for finance, "Not medical advice." for health
+never_say:                                 # your niche guardrails, added to the hard rules
+  - "personal financial, medical or legal advice"
+  - "guarantees of results or income"
+official_links:                            # the ONLY links ReplyDNA may share
+  website: ""
+crisis_line: "your local emergency number, or a crisis line (US 988 · UK 116 123 · India Tele-MANAS 14416)"
+
+inbox_time: "20:00"                        # when the daily inbox is prepared
+max_replies_per_day: 100
+auto_mode: false                           # turn on only after 2 weeks of ≥ 80% approve-without-edit
+quota_daily_cap: 9000                      # YouTube gives 10,000 units/day; we stop early on purpose
