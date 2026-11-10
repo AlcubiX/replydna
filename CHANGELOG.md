@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+- ⚡ One-paste install: Claude Code plugin + marketplace (`/plugin marketplace add AlcubiX/replydna`) and a copy-paste setup prompt
+- 🎯 README: next-video radar and Keep / Improve / Avoid up front
+- 🤖 AGENTS.md for other coding agents; any-LLM / local model support on the roadmap
+
 ## v1.0.0 · 2026-11-10
 First public release.
 - 🧬 Voice DNA: `fetch_transcripts.py` + `voice_stats.py` (address forms, signature phrases, openings/closings; Devanagari-aware)

@@ -1,0 +1,10 @@
+{
+  "name": "replydna",
+  "description": "Reply to YouTube comments in your own voice, in every viewer's language. Voice DNA from your videos, scam shield, mentions radar, monthly Keep/Improve/Avoid report and next-video ideas.",
+  "version": "1.0.0",
+  "author": { "name": "AlcubiX", "url": "https://alcubix.com" },
+  "homepage": "https://github.com/AlcubiX/replydna",
+  "repository": "https://github.com/AlcubiX/replydna",
+  "license": "MIT",
+  "keywords": ["youtube", "comments", "creator-tools", "multilingual", "voice"]
+}

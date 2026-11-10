@@ -1,0 +1,12 @@
+{
+  "name": "replydna",
+  "owner": { "name": "AlcubiX", "url": "https://alcubix.com" },
+  "description": "ReplyDNA: AI YouTube comment assistant that replies in the creator's own voice.",
+  "plugins": [
+    {
+      "name": "replydna",
+      "source": "./",
+      "description": "Reply to YouTube comments in your own voice, in every viewer's language, plus a monthly growth report."
+    }
+  ]
+}

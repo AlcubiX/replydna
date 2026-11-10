@@ -81,6 +81,26 @@ sound like a bot.
 
 ## 🚀 Quick start
 
+### ⚡ One-paste install (Claude Code)
+
+**Option 1: plugin** (CLI, or the desktop app's Code tab via **+ → Plugins**):
+
+```text
+/plugin marketplace add AlcubiX/replydna
+/plugin install replydna@replydna
+```
+Then just say: *"Set up ReplyDNA for my YouTube channel."*
+
+**Option 2: paste this prompt into Claude Code**
+
+```text
+Install ReplyDNA from https://github.com/AlcubiX/replydna into ~/replydna, set up its Python environment, run the demo, then walk me through setting it up for my YouTube channel.
+```
+
+Claude clones the repo, installs everything, opens the demo report and starts the guided setup. You never touch a terminal.
+
+### Manual
+
 **Try the demo in 30 seconds (no YouTube login).** It builds an inbox and a full report from 30 fictional comments in 5 languages:
 
 ```bash
@@ -166,6 +186,8 @@ replydna/
 **Which languages?** Any language Claude can write. The demo shows English, Spanish, Portuguese, Hindi (Devanagari) and Hinglish.
 
 **Can it run fully automatically?** After two weeks in draft mode with ≥ 80% of drafts approved without edits, you can turn on `auto mode` for safe categories only (thanks, simple questions). Alerts and offer mentions always stay manual.
+
+**Does it only work with Claude?** It's built and tested with Claude Code, which gives the best results for Voice DNA and mixed languages like Hinglish. The Python scripts are model-agnostic: any agent that follows [AGENTS.md](AGENTS.md) (Codex CLI, Gemini CLI, Cursor …) can drive them. Fully local models (Ollama, LM Studio) and OpenAI-compatible APIs are on the roadmap: [#7](https://github.com/AlcubiX/replydna/issues/7).
 
 **Does it work on Windows?** Yes: Python 3.10+, Chrome or Edge for PDF reports. Paths in commands use `.venv\Scripts\python` instead of `.venv/bin/python`.
 
