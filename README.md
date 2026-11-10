@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>The open-source AI comment assistant that replies to your YouTube comments in <i>your</i> voice, in every viewer's language.</b><br>
-  Learns how you talk from your own videos · drafts every reply · you approve in 15 minutes a day.
+  Learns how you talk from your own videos · drafts every reply · tells you what to make next.
 </p>
 
 <p align="center">
@@ -43,6 +43,7 @@ sound like a bot.
 | Trolls get ignored or start fights | Two drafts for every tricky comment: **A** calm · **B** witty. You pick |
 | Fake "it's me, DM on Telegram" accounts scam your viewers | Impersonators and scam bots **held automatically** (reversible) |
 | You never see what people say about you on other channels | **Mentions radar**: podcasts, reviews and "exposed" videos that mention you |
+| Guessing your next video | A ranked list of **the videos your audience is asking for** |
 | Gut feeling | A monthly **interactive report + PDF**: Keep · Improve · Avoid, with evidence |
 
 ## ✨ Features
@@ -52,6 +53,8 @@ sound like a bot.
 - 📥 **15-minute daily inbox**: `🔴 alerts · 🔥 hot leads · 🟡 decide A/B · 🟢 ready · ⏸ held`. Say *"approve all, B for 6, skip 10"* and it's done.
 - 🏷️ **28 comment types**: questions, praise, superfans, trolls, valid criticism, "joke but valid", factual corrections, "you're just selling", fraud claims, distress, scams, impersonation and more. Each label comes with evidence, reason and confidence.
 - 🛡️ **Scam shield**: holds fake "assistant" accounts, phone-number and Telegram spam (reversible). Copy-pasted fraud claims are grouped, never silently hidden.
+- 🎯 **Next-video radar**: every question your viewers ask is grouped and ranked into a list of the videos your audience is literally asking for, with how many people asked. Copy one, film it.
+- 📊 **Keep · Improve · Avoid**: each month, three evidence-backed verdicts on your content (what's working, what to fix, what's hurting trust), with the comments and numbers behind every one.
 - 🔥 **Hot leads, no spam**: your course / product / membership is mentioned only when a viewer asks (pull, never push), capped at 10% of replies, with facts only from a file you confirm.
 - 📡 **Mentions radar**: finds other channels' videos about you, reads their comments (read-only), and weights the mood by reach, so one angry 5K-view video doesn't outweigh a 3M-view podcast.
 - 📊 **Reports that look like an annual report**: an interactive HTML page (filters, A/B demo, checklist) **plus** a downloadable 16:9 PDF, every month, automatically. [See the live demo →](https://alcubix.github.io/replydna/demo/)
@@ -188,7 +191,7 @@ Ideas and pull requests are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md), ask
   </a>
 </p>
 
-ReplyDNA is built and maintained by **[AlcubiX](https://alcubix.com)**, makers of [TaskFlow](https://taskflow.alcubix.com): *we compress the time work takes.*
+ReplyDNA is built and maintained by **[AlcubiX](https://alcubix.com)**: *we compress the time work takes.*
 If it saves you time, a ⭐ on the repo helps other creators find it.
 
 <sub>ReplyDNA is an independent open-source project, not affiliated with YouTube, Google or Anthropic. "YouTube" is a trademark of Google LLC; "Claude" is a trademark of Anthropic.</sub>
